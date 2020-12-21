@@ -58,11 +58,11 @@ if __name__ == "__main__" :
     #
     app = Client(
         ":memory:",
-        bot_token=TG_BOT_TOKEN,
-        api_id=APP_ID,
-        api_hash=API_HASH,
+        bot_token=1401136395:AAGUGIeIKCBophgUJmiP-rhGHnNmjEI3mvs,
+        api_id=2695636,
+        api_hash=e3c4e55b3ef28f0bc38700405cc7400b,
         workers=343,
-        workdir=DOWNLOAD_LOCATION
+        workdir=os.makedirs,
     )
     #
     app.set_parse_mode("html")
