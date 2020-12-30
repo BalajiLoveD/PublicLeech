@@ -38,7 +38,7 @@ class Config:
     # set timeout for subprocess
     PROCESS_MAX_TIMEOUT = int(get_config(
         "PROCESS_MAX_TIMEOUT",
-        3600
+        1000000
     ))
     #
     ARIA_TWO_STARTED_PORT = int(get_config(
